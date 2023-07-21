@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validations</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://cdn.lineicons.com/3.0/lineicons.css" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <script defer src="./index.js"></script>
+</head>
+
+<body>
+    <div class="container">
+
+        <form id="form" action="/">
+            <h1>Register</h1>
+            <div class="input-control">
+                <label for="username">Username</label><br>
+                <input type="text" id="username" name="username"><br><br>
+                <i class="lni lni-checkmark-circle"></i>
+                <i class="lni lni-question-circle"></i>
+                <small></small>
+                <div class="error">
+                </div>
+            </div>
+            <div class="input-control">
+                <label for="email">Email</label><br>
+                <input type="email" id="email" name="email">
+                <br><br>
+                <i class="lni lni-checkmark-circle"></i>
+                <i class="lni lni-question-circle"></i>
+                <small></small>
+                <div class="error">
+                </div>
+            </div>
+            <div class="input-control">
+                <label for="password">Password</label><br>
+                <input type="password" id="password" name="password">
+                <br><br>
+                <i class="lni lni-checkmark-circle"></i>
+                <i class="lni lni-question-circle"></i>
+                <small></small>
+                <div class="error">
+                </div>
+            </div>
+            <div class="input-control">
+                <label for="confirmPassword">Conform Password</label><br>
+                <input type="password" id="confirmPassword" name="confirmPassword">
+                <br><br>
+                <i class="lni lni-checkmark-circle"></i>
+                <i class="lni lni-question-circle"></i>
+                <small></small>
+                <div class="error">
+                </div>
+            </div>
+            <button type="submit">Sign Up</button>
+        </form>
+    </div>
+</body>
+
+</html>

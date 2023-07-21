@@ -1,0 +1,98 @@
+body {
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  font-family: "Poppins", sans-serif;
+}
+
+#form {
+  width: 300px;
+  margin: 20vh auto 0px auto;
+  padding: 20px;
+  background: whitesmoke;
+  font-size: 12px;
+  border-radius: 14px;
+}
+
+h1 {
+  color: #0f2027;
+  text-align: center;
+}
+
+.input-control {
+  position: relative;
+  text-align: left;
+  /* display: flex;
+  flex-direction: column;
+  margin: 8px; */
+}
+
+.input-control input {
+  font-size: 12px;
+  padding: 10px;
+  border: 2px solid #f0f0f0;
+  border-radius: 8px;
+  width: 80%;
+  /* display: block; */
+}
+
+.input-control i {
+  position: absolute;
+  top: 25px;
+  right: 10px;
+  visibility: hidden;
+}
+
+.input-control small {
+  visibility: visible;
+}
+
+.input-control.success i.lni-checkmark-circle {
+  visibility: visible;
+  color: green;
+}
+
+.input-control.error i.lni-question-circle {
+  visibility: visible;
+  color: red;
+}
+
+.input-control small {
+  color: red;
+  visibility: hidden;
+}
+
+.input-control.error small {
+  visibility: visible;
+}
+
+.input-control label {
+  font-size: 12px;
+}
+
+.input-control input:focus {
+  outline: 0;
+}
+
+.input-control.success input {
+  border-color: #09c372;
+}
+
+.input-control.error input {
+  border-color: #ff3860;
+}
+
+.input-control .error {
+  color: #ff3860;
+  font-size: 9px;
+  height: 13px;
+}
+
+#form button {
+  padding: 10px;
+  margin-top: 10px;
+  width: 100%;
+  background-color: rgb(41, 57, 194);
+  border: none;
+  border-radius: 8px;
+  color: white;
+  text-transform: uppercase;
+}
